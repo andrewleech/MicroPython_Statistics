@@ -57,7 +57,7 @@ def mode(data):
         data = list(data)
     data = sorted(data)
     last = modev = None
-    countmax = i = 0
+    countmax = i = count =0
     while i < len(data):
         if data[i] == last:
             count += 1
